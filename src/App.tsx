@@ -10,6 +10,7 @@ import DetailPage from './pages/DetailPage'
 function App() {
     return (
         <div className='text-center'>
+            <h1 className='text-3xl font-bold underline'>Hello world!</h1>
             <Routes>
                 <Route path='/' element={<MainPage />} />
                 <Route path='/profile' element={<ProfilePage />} />
