@@ -9,7 +9,7 @@ import DetailPage from './pages/DetailPage'
 
 function App() {
     return (
-        <div>
+        <div className='text-center'>
             <Routes>
                 <Route path='/' element={<MainPage />} />
                 <Route path='/profile' element={<ProfilePage />} />
